@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>Page 2</title>
+  <meta charset="UTF-8">
+
+  <!-- styles -->
+  <link rel="stylesheet" href="styles/styles.css"> 
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>Mon site</h1>
+    <p>Bienvenue sur mon <b>premier</b> site web.</p>
+  </div>
+
+  <div class="navbar">
+    <a href="index.html">Accueil</a>
+    <a href="page2.html">Page 2</a>
+    <a href="page3.html" class="active">Page 3</a>
+    <a href="https://fr.wikipedia.org/wiki/Jan_Weissenbruch">Lien</a>
+    <a href="contact.html" class="right">Contact</a>
+  </div>
+
+  <!-- PAGE -->
+  <div class="row">
+
+    <!-- MENU GAUCHE -->
+    <div class="side">
+      <h2>À propos</h2>
+      <h5>Mon profil :</h5>
+      <div>
+        <img src="images/Jan_Weissenbruch.jpg" style="height:200px">
+      </div>
+      <p>Jan Weissenbruch, né à La Haye, le 18 mars 1822.</p>
+      <h5>D'autres infos :</h3>
+      <p>Je suis peintre et j'ai étudié à l'École de La Haye entre 1839 et 1847.</p>
+      <h5>Mes centres d'intérêt :</h5>
+      <ul>
+        <li>L'art</li>
+        <li>La littérature</li>
+        <li>Le café</li>
+      </ul> 
+    </div>
+
+    <!-- CONTENU PRINCIPAL -->
+    <div class="main">
+
+      <div>
+        <h2>Une vidéo sur Youtube</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tlTKTTt47WE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <div>
+        <h2>Une vidéo en local</h2>
+        <video width="560" height="315" controls>
+          <source src="videos/kebab.mp4" type="video/mp4"/>
+          La balise vidéo n'est pas supportée par votre navigateur.
+        </video> 
+      </div>
+
+      <div>
+        <h2>Du son de Soundcloud</h2>
+        <iframe width="70%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/469939674&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+      </div>
+
+      <div>
+        <h2>Du son en local</h2>
+        <audio controls>
+          <source src="audio/piste1.mp3" type="audio/mp3"/>
+          La balise audio n'est pas supportée par votre navigateur.
+        </audio> 
+      </div>
+    </div>
+  </div>
+
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <p>Site inspiré d'un exemple sur <a href="https://www.w3schools.com/html/default.asp">w3schools.com</a>.</p>
+  </div>
+</body>
